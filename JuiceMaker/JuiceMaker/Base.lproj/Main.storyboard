@@ -89,7 +89,7 @@
                                         <color key="tintColor" red="0.21561011669999999" green="0.37012368439999999" blue="0.19997212289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="키위쥬스 주문"/>
                                         <connections>
-                                            <action selector="touchUpOrderButton:" destination="BYZ-38-t0r" eventType="touchDragInside" id="SRh-EL-6nv"/>
+                                            <action selector="touchUpOrderButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jvG-qg-VjK"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hG4-q4-2zN">
@@ -99,7 +99,7 @@
                                         <color key="tintColor" red="0.21561011669999999" green="0.37012368439999999" blue="0.19997212289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="망고쥬스 주문"/>
                                         <connections>
-                                            <action selector="touchUpOrderButton:" destination="BYZ-38-t0r" eventType="touchDragInside" id="7lQ-VA-cxM"/>
+                                            <action selector="touchUpOrderButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bnk-EQ-qPq"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -110,31 +110,31 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="zfb-sB-zZv">
                                 <rect key="frame" x="64" y="167" width="684" height="40"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4F-UD-0vm">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4F-UD-0vm">
                                         <rect key="frame" x="0.0" y="0.0" width="96.666666666666671" height="40"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbF-dQ-I7i">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbF-dQ-I7i">
                                         <rect key="frame" x="146.66666666666666" y="0.0" width="97" height="40"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXP-uR-mOc">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXP-uR-mOc">
                                         <rect key="frame" x="293.66666666666669" y="0.0" width="96.666666666666686" height="40"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRx-ax-Etc">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRx-ax-Etc">
                                         <rect key="frame" x="440.33333333333331" y="0.0" width="96.999999999999943" height="40"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqa-YV-5Ds">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqa-YV-5Ds">
                                         <rect key="frame" x="587.33333333333337" y="0.0" width="96.666666666666629" height="40"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <nil key="textColor"/>
@@ -165,7 +165,7 @@
                                         <color key="tintColor" red="0.21561011669999999" green="0.37012368439999999" blue="0.19997212289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="망고키위쥬스 주문"/>
                                         <connections>
-                                            <action selector="touchUpOrderButton:" destination="BYZ-38-t0r" eventType="touchDragInside" id="cvW-XJ-isY"/>
+                                            <action selector="touchUpOrderButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XlS-Wp-RBe"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -224,6 +224,11 @@
                         <outlet property="mangoJuiceOrderButton" destination="hG4-q4-2zN" id="vTY-nX-GmV"/>
                         <outlet property="mangoKiwiJuiceOrderButton" destination="kbz-ZU-g3p" id="jeb-3g-0qQ"/>
                         <outlet property="pineappleJuiceOrderButton" destination="pb3-cz-bxJ" id="Pac-V1-q6W"/>
+                        <outlet property="remainingBananaNumberLabel" destination="JbF-dQ-I7i" id="4Ka-hn-lRa"/>
+                        <outlet property="remainingKiwiNumberLabel" destination="uRx-ax-Etc" id="G40-L7-o7D"/>
+                        <outlet property="remainingMangoNumberLabel" destination="xqa-YV-5Ds" id="Q5w-0d-kU7"/>
+                        <outlet property="remainingPineappleNumberLabel" destination="xXP-uR-mOc" id="JOE-5z-Nb4"/>
+                        <outlet property="remainingStrawberryNumberLabel" destination="o4F-UD-0vm" id="Ph6-bX-kPJ"/>
                         <outlet property="strawberryBananaJuiceOrderButton" destination="x04-vW-5HL" id="PqP-iI-gBb"/>
                         <outlet property="strawberryJuiceOrderButton" destination="kcZ-7B-ZQ8" id="Woa-E0-RiB"/>
                     </connections>
