@@ -14,7 +14,7 @@ class JuiceMaker {
     do {
       let requiredFruits: [Fruit: Int] = try checkRequiredFruits(for: orderedJuice)
       if try hasEnoughFruits(of: requiredFruits) {
-        comsumeStockedFruits(for: requiredFruits)
+        consumeStockedFruits(for: requiredFruits)
         printOrderCompleted(for: orderedJuice)
       }
     } catch {
@@ -52,7 +52,7 @@ class JuiceMaker {
     return true
   }
   
-  private func comsumeStockedFruits(for requiredFruits: [Fruit: Int]) {
+  private func consumeStockedFruits(for requiredFruits: [Fruit: Int]) {
     for (fruit, quantity) in requiredFruits {
       stock.subtract(for: fruit, amount: quantity)
     }
