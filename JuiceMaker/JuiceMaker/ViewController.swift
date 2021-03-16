@@ -34,15 +34,15 @@ class ViewController: UIViewController {
 
     do {
       remainingStrawberryNumberLabel.text = try String(
-        juiceMaker.stock.count(for: .strawberry))
+        Stock.shared.count(for: .strawberry))
       remainingBananaNumberLabel.text = try String(
-        juiceMaker.stock.count(for: .banana))
+        Stock.shared.count(for: .banana))
       remainingPineappleNumberLabel.text = try String(
-        juiceMaker.stock.count(for: .pineapple))
+        Stock.shared.count(for: .pineapple))
       remainingKiwiNumberLabel.text = try String(
-        juiceMaker.stock.count(for: .kiwi))
+        Stock.shared.count(for: .kiwi))
       remainingMangoNumberLabel.text = try String(
-        juiceMaker.stock.count(for: .mango))
+        Stock.shared.count(for: .mango))
     } catch {
       print("String 타입캐스팅에 실패하였습니다.")
     }
@@ -55,35 +55,35 @@ class ViewController: UIViewController {
       case strawberryJuiceOrderButton:
         juiceMaker.make(of: .strawberryJuice)
         remainingStrawberryNumberLabel.text = try String(
-          juiceMaker.stock.count(for: .strawberry))
+          Stock.shared.count(for: .strawberry))
       case bananaJuiceOrderButton:
         juiceMaker.make(of: .bananaJuice)
         remainingBananaNumberLabel.text = try String(
-          juiceMaker.stock.count(for: .banana))
+          Stock.shared.count(for: .banana))
       case kiwiJuiceOrderButton:
         juiceMaker.make(of: .kiwiJuice)
         remainingKiwiNumberLabel.text = try String(
-          juiceMaker.stock.count(for: .kiwi))
+          Stock.shared.count(for: .kiwi))
       case pineappleJuiceOrderButton:
         juiceMaker.make(of: .pineappleJuice)
         remainingPineappleNumberLabel.text = try String(
-          juiceMaker.stock.count(for: .pineapple))
+          Stock.shared.count(for: .pineapple))
       case strawberryBananaJuiceOrderButton:
         juiceMaker.make(of: .strawberryBananaJuice)
         remainingStrawberryNumberLabel.text = try String(
-          juiceMaker.stock.count(for: .strawberry))
+          Stock.shared.count(for: .strawberry))
         remainingBananaNumberLabel.text = try String(
-          juiceMaker.stock.count(for: .banana))
+          Stock.shared.count(for: .banana))
       case mangoJuiceOrderButton:
         juiceMaker.make(of: .mangoJuice)
         remainingMangoNumberLabel.text = try String(
-          juiceMaker.stock.count(for: .mango))
+          Stock.shared.count(for: .mango))
       case mangoKiwiJuiceOrderButton:
         juiceMaker.make(of: .mangoKiwiJuice)
         remainingMangoNumberLabel.text = try String(
-          juiceMaker.stock.count(for: .mango))
+          Stock.shared.count(for: .mango))
         remainingKiwiNumberLabel.text = try String(
-          juiceMaker.stock.count(for: .kiwi))
+          Stock.shared.count(for: .kiwi))
       default:
         print("듣도 보도 못한 버튼이군요..")
         informErrorLocation(functionName: #function)

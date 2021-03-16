@@ -9,11 +9,12 @@ import Foundation
 
 // MARK: - Stock Type
 class Stock {
+  static let shared = Stock()
   private(set) var stock = [Fruit: Int]()
   
-  init() {
+  private init() {
     for fruit in Fruit.allCases {
-      stock[fruit] = 100
+      stock[fruit] = 20
     }
   }
   
