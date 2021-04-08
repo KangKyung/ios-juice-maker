@@ -15,10 +15,33 @@ class ViewController: UIViewController {
   @IBOutlet var kiwiStockQuantityLabel: UILabel!
   @IBOutlet var mangoStockQuantityLabel: UILabel!
   
+  @IBOutlet weak var strawberryJuiceOrderButton: UIButton!
+  @IBOutlet weak var bananaJuiceOrderButton: UIButton!
+  @IBOutlet weak var kiwiJuiceOrderButton: UIButton!
+  @IBOutlet weak var pineappleJuiceOrderButton: UIButton!
+  @IBOutlet weak var strawberryBananaJuiceOrderButton: UIButton!
+  @IBOutlet weak var mangoJuiceOrderButton: UIButton!
+  @IBOutlet weak var mangoKiwiJuiceOrderButton: UIButton!
+  
+  @IBOutlet var buttons: [UIButton]!
+  @IBOutlet var labels: [UILabel]!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
     updateFruitStockQuantity()
+    NotificationCenter.default.addObserver(self, selector: #selector(adjustButtonDynamicType), name: UIContentSizeCategory.didChangeNotification, object: nil)
+    NotificationCenter.default.addObserver(self, selector: #selector(adjustLabelDynamicType), name: UIContentSizeCategory.didChangeNotification, object: nil)
+  }
+  @objc func adjustButtonDynamicType() {
+    buttons.forEach{ (button) in
+      button.titleLabel?.adjustsFontForContentSizeCategory = true
+    }
+  }
+  @objc func adjustLabelDynamicType() {
+    labels.forEach{ (label) in
+      label.adjustsFontForContentSizeCategory = true
+    }
   }
   
   func updateFruitStockQuantity() {
@@ -54,14 +77,18 @@ class ViewController: UIViewController {
   }
   
   @IBAction func touchUpOrderButton(_ sender: UIButton) {
-    guard let buttonTitle = sender.titleLabel else {
-      return
-    }
-    guard let buttonTitleText = buttonTitle.text else {
-      return
-    }
-    let juiceName = buttonTitleText.replacingOccurrences(of: " 주문", with: "")
-    guard let orderedJuice = Juice(rawValue: juiceName) else {
+//    guard let buttonTitle = sender.titleLabel else {
+//      return
+//    }
+//    guard let buttonTitleText = buttonTitle.text else {
+//      return
+//    }
+//    let juiceName = buttonTitleText.replacingOccurrences(of: " 주문", with: "")
+//    guard let orderedJuice = Juice(rawValue: juiceName) else {
+//      return
+//    }
+
+    guard let orderedJuice = findJuicethroughButton(button: sender) else {
       return
     }
     
@@ -73,5 +100,29 @@ class ViewController: UIViewController {
     
     updateFruitStockQuantity()
     showAlert()
+  }
+  
+  func findJuicethroughButton(button: UIButton) -> Juice? {
+    var juice: Juice?
+    switch(button) {
+    case strawberryJuiceOrderButton :
+      juice = Juice.strawberryJuice
+    case bananaJuiceOrderButton :
+      juice = Juice.bananaJuice
+    case kiwiJuiceOrderButton :
+      juice = Juice.kiwiJuice
+    case pineappleJuiceOrderButton :
+      juice = Juice.pineappleJuice
+    case strawberryBananaJuiceOrderButton :
+      juice = Juice.strawberryBananaJuice
+    case mangoJuiceOrderButton :
+      juice = Juice.mangoJuice
+    case mangoKiwiJuiceOrderButton :
+      juice = Juice.mangoKiwiJuice
+    default:
+      print("잘못된 쥬스버튼 입력입니다.")
+    }
+    
+    return juice
   }
 }

@@ -19,107 +19,101 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9Hi-7P-pXT">
                                 <rect key="frame" x="44" y="10" width="808" height="383"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xpO-HL-syK">
-                                        <rect key="frame" x="0.0" y="0.0" width="808" height="74"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="맛있는 쥬스를 만들어 드려요!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xpO-HL-syK">
+                                        <rect key="frame" x="0.0" y="0.0" width="808" height="62"/>
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                        <attributedString key="attributedText">
-                                            <fragment content="맛있는 쥬스를 만들어 드려요!">
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="39"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="l27-NY-l6X">
-                                        <rect key="frame" x="0.0" y="84" width="808" height="167.5"/>
+                                        <rect key="frame" x="0.0" y="72" width="808" height="132.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lv2-Ld-VOK">
-                                                <rect key="frame" x="0.0" y="0.0" width="153.5" height="167.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="153.5" height="132.5"/>
                                                 <subviews>
-                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="🍓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1c-BX-paS">
-                                                        <rect key="frame" x="0.0" y="0.0" width="153.5" height="121.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="🍓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1c-BX-paS">
+                                                        <rect key="frame" x="0.0" y="0.0" width="153.5" height="102"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ag6-sU-KFF">
-                                                        <rect key="frame" x="0.0" y="131.5" width="153.5" height="36"/>
+                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ag6-sU-KFF">
+                                                        <rect key="frame" x="0.0" y="112" width="153.5" height="20.5"/>
                                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="I8m-Z2-Dd2">
-                                                <rect key="frame" x="163.5" y="0.0" width="153.5" height="167.5"/>
+                                                <rect key="frame" x="163.5" y="0.0" width="153.5" height="132.5"/>
                                                 <subviews>
-                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="🍌" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="th7-0c-bPl">
-                                                        <rect key="frame" x="0.0" y="0.0" width="153.5" height="121.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="🍌" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="th7-0c-bPl">
+                                                        <rect key="frame" x="0.0" y="0.0" width="153.5" height="102"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgt-dk-fs8">
-                                                        <rect key="frame" x="0.0" y="131.5" width="153.5" height="36"/>
+                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgt-dk-fs8">
+                                                        <rect key="frame" x="0.0" y="112" width="153.5" height="20.5"/>
                                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6I6-Nn-66l">
-                                                <rect key="frame" x="327" y="0.0" width="154" height="167.5"/>
+                                                <rect key="frame" x="327" y="0.0" width="154" height="132.5"/>
                                                 <subviews>
-                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="🍍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GxV-kw-szE">
-                                                        <rect key="frame" x="0.0" y="0.0" width="154" height="121.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="🍍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GxV-kw-szE">
+                                                        <rect key="frame" x="0.0" y="0.0" width="154" height="102"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrR-cQ-TbQ">
-                                                        <rect key="frame" x="0.0" y="131.5" width="154" height="36"/>
+                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrR-cQ-TbQ">
+                                                        <rect key="frame" x="0.0" y="112" width="154" height="20.5"/>
                                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="iVi-kO-KWy">
-                                                <rect key="frame" x="491" y="0.0" width="153.5" height="167.5"/>
+                                                <rect key="frame" x="491" y="0.0" width="153.5" height="132.5"/>
                                                 <subviews>
-                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="🥝" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWn-7d-UyH">
-                                                        <rect key="frame" x="0.0" y="0.0" width="153.5" height="121.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="🥝" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWn-7d-UyH">
+                                                        <rect key="frame" x="0.0" y="0.0" width="153.5" height="102"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9A-Hp-eS9">
-                                                        <rect key="frame" x="0.0" y="131.5" width="153.5" height="36"/>
+                                                    <label verifyAmbiguity="off" opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9A-Hp-eS9">
+                                                        <rect key="frame" x="0.0" y="112" width="153.5" height="20.5"/>
                                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dHf-dh-Kte">
-                                                <rect key="frame" x="654.5" y="0.0" width="153.5" height="167.5"/>
+                                                <rect key="frame" x="654.5" y="0.0" width="153.5" height="132.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="🥭" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpr-Et-jB2">
-                                                        <rect key="frame" x="0.0" y="0.0" width="153.5" height="121.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="🥭" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpr-Et-jB2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="153.5" height="102"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ii0-VR-m3b">
-                                                        <rect key="frame" x="0.0" y="131.5" width="153.5" height="36"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ii0-VR-m3b">
+                                                        <rect key="frame" x="0.0" y="112" width="153.5" height="20.5"/>
                                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -142,14 +136,15 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="T3z-G5-DQU">
-                                        <rect key="frame" x="0.0" y="261.5" width="808" height="121.5"/>
+                                        <rect key="frame" x="0.0" y="214.5" width="808" height="168.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7mz-zv-bN6">
-                                                <rect key="frame" x="0.0" y="0.0" width="808" height="56"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="808" height="79"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVn-xB-jHB">
-                                                        <rect key="frame" x="0.0" y="0.0" width="399" height="56"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="399" height="79"/>
                                                         <color key="backgroundColor" systemColor="linkColor"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                         <state key="normal" title="딸바쥬스 주문">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -158,8 +153,9 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBd-wk-0W2">
-                                                        <rect key="frame" x="409" y="0.0" width="399" height="56"/>
+                                                        <rect key="frame" x="409" y="0.0" width="399" height="79"/>
                                                         <color key="backgroundColor" systemColor="linkColor"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                         <state key="normal" title="망고키위쥬스 주문">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -170,11 +166,12 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="v1f-Dn-JUr">
-                                                <rect key="frame" x="0.0" y="66" width="808" height="55.5"/>
+                                                <rect key="frame" x="0.0" y="89" width="808" height="79.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DY-UK-rDO">
-                                                        <rect key="frame" x="0.0" y="0.0" width="153.5" height="55.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="153.5" height="79.5"/>
                                                         <color key="backgroundColor" systemColor="linkColor"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                         <state key="normal" title="딸기쥬스 주문">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -183,8 +180,9 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMK-xO-SBN">
-                                                        <rect key="frame" x="163.5" y="0.0" width="153.5" height="55.5"/>
+                                                        <rect key="frame" x="163.5" y="0.0" width="153.5" height="79.5"/>
                                                         <color key="backgroundColor" systemColor="linkColor"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                         <state key="normal" title="바나나쥬스 주문">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -193,8 +191,9 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ieo-BH-QCA">
-                                                        <rect key="frame" x="327" y="0.0" width="154" height="55.5"/>
+                                                        <rect key="frame" x="327" y="0.0" width="154" height="79.5"/>
                                                         <color key="backgroundColor" systemColor="linkColor"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                         <state key="normal" title="파인애플쥬스 주문">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -203,8 +202,9 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UI-Fn-X8f">
-                                                        <rect key="frame" x="491" y="0.0" width="153.5" height="55.5"/>
+                                                        <rect key="frame" x="491" y="0.0" width="153.5" height="79.5"/>
                                                         <color key="backgroundColor" systemColor="linkColor"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                         <state key="normal" title="키위쥬스 주문">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -213,8 +213,9 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7BK-Vs-ePK">
-                                                        <rect key="frame" x="654.5" y="0.0" width="153.5" height="55.5"/>
+                                                        <rect key="frame" x="654.5" y="0.0" width="153.5" height="79.5"/>
                                                         <color key="backgroundColor" systemColor="linkColor"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                         <state key="normal" title="망고쥬스 주문">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -237,8 +238,8 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtQ-7o-GyU">
-                                <rect key="frame" x="734" y="25" width="92" height="42"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <rect key="frame" x="751" y="25" width="75" height="36"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <state key="normal" title="재고 수정"/>
                                 <connections>
                                     <segue destination="fvd-dZ-7lm" kind="presentation" identifier="goToModifyStockView" id="pIY-ga-RjG"/>
@@ -258,11 +259,27 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bananaJuiceOrderButton" destination="tMK-xO-SBN" id="NV1-Ug-yGI"/>
                         <outlet property="bananaStockQuantityLabel" destination="bgt-dk-fs8" id="Wjv-ms-m8r"/>
+                        <outlet property="kiwiJuiceOrderButton" destination="6UI-Fn-X8f" id="TQQ-aZ-MZc"/>
                         <outlet property="kiwiStockQuantityLabel" destination="U9A-Hp-eS9" id="5P9-4K-UdH"/>
+                        <outlet property="mangoJuiceOrderButton" destination="7BK-Vs-ePK" id="z9j-av-6Eb"/>
+                        <outlet property="mangoKiwiJuiceOrderButton" destination="eBd-wk-0W2" id="Uo2-ZX-TiX"/>
                         <outlet property="mangoStockQuantityLabel" destination="Ii0-VR-m3b" id="7Jn-Bc-DRM"/>
+                        <outlet property="pineappleJuiceOrderButton" destination="Ieo-BH-QCA" id="RAb-6J-GdY"/>
                         <outlet property="pineappleStockQuantityLabel" destination="HrR-cQ-TbQ" id="IR3-nn-Pb4"/>
+                        <outlet property="strawberryBananaJuiceOrderButton" destination="aVn-xB-jHB" id="yzf-GZ-I51"/>
+                        <outlet property="strawberryJuiceOrderButton" destination="2DY-UK-rDO" id="ogX-cf-xDe"/>
                         <outlet property="strawberryStockQuantityLabel" destination="Ag6-sU-KFF" id="02P-M3-ECn"/>
+                        <outletCollection property="buttons" destination="aVn-xB-jHB" collectionClass="NSMutableArray" id="22m-EU-yZH"/>
+                        <outletCollection property="buttons" destination="2DY-UK-rDO" collectionClass="NSMutableArray" id="wFl-ZZ-oQx"/>
+                        <outletCollection property="buttons" destination="eBd-wk-0W2" collectionClass="NSMutableArray" id="9lY-FV-aG7"/>
+                        <outletCollection property="buttons" destination="tMK-xO-SBN" collectionClass="NSMutableArray" id="Mss-KC-Zwk"/>
+                        <outletCollection property="buttons" destination="Ieo-BH-QCA" collectionClass="NSMutableArray" id="bgR-aZ-S7A"/>
+                        <outletCollection property="buttons" destination="6UI-Fn-X8f" collectionClass="NSMutableArray" id="Gid-gZ-RBu"/>
+                        <outletCollection property="buttons" destination="7BK-Vs-ePK" collectionClass="NSMutableArray" id="ffU-h7-qOl"/>
+                        <outletCollection property="buttons" destination="mtQ-7o-GyU" collectionClass="NSMutableArray" id="YSO-s8-ulM"/>
+                        <outletCollection property="labels" destination="xpO-HL-syK" collectionClass="NSMutableArray" id="4zm-9Y-f8G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
